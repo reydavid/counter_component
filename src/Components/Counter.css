@@ -1,0 +1,15 @@
+.box {
+    border: solid 1px black;
+    display:flex;
+    justify-content: space-around;
+}
+
+#btns {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width:+4em;
+    height: +1.5em;
+}
