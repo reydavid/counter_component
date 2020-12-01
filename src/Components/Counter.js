@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Counter.css';
 
 class Counter extends React.Component {
@@ -22,12 +22,9 @@ class Counter extends React.Component {
         }
         
         render(){
-            setTimeout(() => {
-              this.setState({startCount});
-            },500)
-        }
-        return (
-            <div class="box">
+              {this.setState.startCount};
+              return (
+                  <div class="box">
             <h2>Starting Count:{props.startCount}</h2>
                 <br></br>
             <h2>Counting Rate: {countingRate}</h2>
@@ -39,7 +36,8 @@ class Counter extends React.Component {
         
         </div>
         
-    )
-}
-
+        )
+    }
+    }
+    
 export default Counter;
